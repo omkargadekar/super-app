@@ -1,0 +1,46 @@
+.dashboard {
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  gap: 10px;
+}
+.dashboard-main {
+  gap: 15px;
+  height: 90vh;
+  width: 100%;
+}
+.main-left {
+  gap: 15px;
+  /* background-color: aliceblue; */
+  flex-direction: column;
+  height: 100%;
+}
+
+.left-up {
+  gap: 30px;
+}
+.up-left {
+  flex-direction: column;
+  gap: 15px;
+}
+.up-right {
+  height: 400px;
+  width: 370px;
+  background-color: #f1c75b;
+  border-radius: 15px;
+}
+.left-down {
+  background-color: #1e2343;
+  height: 270px;
+  width: 100%;
+  border-radius: 19px;
+}
+.main-right {
+  height: 90vh;
+  width: 60vh;
+  border-radius: 19px;
+}
+.browseBtn {
+  margin-left: 84rem;
+}

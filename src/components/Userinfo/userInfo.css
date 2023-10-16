@@ -1,0 +1,62 @@
+.userInfo {
+  background-color: #5746ea;
+  height: 15rem;
+  width: 26rem;
+  border-radius: 19px;
+  gap: 35px;
+  color: white;
+}
+.userImage {
+  height: 210px;
+}
+.savedinfo {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 60%;
+  gap: 30px;
+}
+.savedinfo h3 {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+.savedinfo h1 {
+  font-family: Roboto;
+  font-size: 37px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: white;
+}
+.savedinfo p {
+  width: 100px;
+  height: 30px;
+  border-radius: 21px;
+  background-color: #9f94ff;
+  color: white;
+}
+.cat-data {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+
+  width: 15rem;
+  height: 5rem;
+  overflow: auto;
+}
+.user-data {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.cat-data p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-data .userInfoName {
+  font-size: 2rem;
+}

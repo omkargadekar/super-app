@@ -1,0 +1,76 @@
+.input-field {
+  display: flex;
+}
+
+.input {
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: rgb(25, 23, 23);
+  height: 50px;
+  width: 410px;
+
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.btn {
+  background-color: lightgreen;
+  height: 50px;
+  width: 410px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 35px;
+  font-family: Roboto;
+  margin-top: 8px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+}
+
+.categoryBtn {
+  height: 18px;
+  width: 80px;
+  padding: 3px 5px;
+  background-color: #11b800;
+  border-radius: 31px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 138px;
+  height: 45px;
+  border-radius: 31px;
+  background-color: #148a08;
+  color: white;
+  text-transform: capitalize;
+  gap: 8px;
+}
+
+.categoryNextBtn {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 128px;
+  height: 45px;
+  border-radius: 31px;
+  background-color: #148a08;
+  color: white;
+}

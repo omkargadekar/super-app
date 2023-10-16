@@ -1,0 +1,93 @@
+.weather {
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #101744;
+  color: white;
+  height: 150px;
+  width: 26rem;
+  border-radius: 19px;
+  font-family: Roboto;
+}
+.weather-panel {
+  background-color: #ff4ade;
+  width: 100%;
+  height: 40px;
+  border-radius: 19px 19px 0 0;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0.02em;
+}
+.weatherText {
+  flex-direction: column;
+  gap: -5px;
+  margin-bottom: 10px;
+}
+.temp {
+  flex-direction: column;
+  gap: 5px;
+}
+.temp-text {
+  font-size: 28px;
+}
+.third {
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 40px;
+}
+.temp-cont {
+  gap: 10px;
+}
+.weather-d {
+  justify-content: space-around;
+  width: 507px;
+  margin-top: 10px;
+}
+
+.tempImg {
+  height: 20px;
+  width: 11px;
+}
+.windImg {
+  height: 20px;
+  width: 26px;
+}
+.wind {
+  gap: 10px;
+}
+.humidityImg {
+  height: 22px;
+  width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.humidity {
+  gap: 12px;
+}
+
+.p-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.p-text-big {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-left: 2rem;
+}
+.weather-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-left: 35px;
+}

@@ -1,0 +1,150 @@
+h2 {
+  color: lightgreen;
+  font-size: 3.7rem;
+  font-family: Single Day;
+  font-size: 67px;
+  font-weight: 400;
+}
+.category {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: centers;
+  color: white;
+  gap: 100px;
+  margin-top: 40px;
+}
+.categoryy {
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+}
+.category-h1 {
+  color: white;
+  font-family: Roboto;
+  font-size: 68px;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 50px;
+  width: 40%;
+}
+.leftt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+
+  width: 80%;
+}
+.left p {
+  color: red;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+.rightt {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.btnDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.cards {
+  height: 180px;
+  width: 185px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 19px;
+  position: relative;
+}
+h4 {
+  font-family: DM Sans;
+  font-size: 27px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.h4 {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 8px;
+}
+
+.cardImg {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.nextBtn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 110px;
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+}
+span {
+  color: #085c00;
+}
+
+.errimg {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+}
+
+.err {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected {
+  border: 6px solid #11b800;
+}
+
+.selectedBtn {
+  display: block;
+}
+.hide {
+  display: none;
+}

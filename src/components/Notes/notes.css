@@ -1,0 +1,82 @@
+.notescomp {
+  text-align: left;
+  height: 400px;
+  width: 430px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.note-form {
+  margin-left: 25px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px;
+  position: relative;
+  font-size: 1rem;
+  font-family: Roboto;
+  overflow: hidden;
+  max-width: 90%;
+  margin-left: 25px;
+}
+
+.notes-del {
+  font-size: 15px;
+  height: 20px;
+  width: 20px;
+  color: black;
+  background-color: #f1c75b;
+  border: none;
+  position: absolute;
+  right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-height: 100px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+}
+
+.notes-text {
+  background-color: #edbf4b;
+
+  border: #f1c75b;
+  padding-top: 12px;
+  padding-left: 10px;
+  width: 90%;
+  height: 70%;
+  outline: none;
+}
+
+.notes-tag {
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.notes-btn {
+  font-size: 25px;
+  height: 20px;
+  width: 20px;
+  color: black;
+  background-color: #edbf4b;
+  border: none;
+  position: absolute;
+  top: 8px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
